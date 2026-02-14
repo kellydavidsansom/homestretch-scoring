@@ -4,7 +4,9 @@
   "description": "Shared mortgage readiness scoring calculator",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
@@ -16,5 +18,8 @@
   },
   "devDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@homestretch/scoring": "github:kellydavidsansom/homestretch-scoring"
   }
 }
