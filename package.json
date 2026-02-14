@@ -1,0 +1,19 @@
+{
+  "name": "@homestretch/scoring",
+  "version": "1.0.0",
+  "description": "Shared mortgage readiness scoring calculator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kellydavidsansom/homestretch-scoring.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
